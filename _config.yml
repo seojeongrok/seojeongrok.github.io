@@ -21,7 +21,8 @@ repository: just-the-docs/just-the-docs # for github-metadata
 
 permalink: pretty
 
-theme: just-the-docs
+# theme: "just-the-docs"
+remote_theme: pmarsceill/just-the-docs
 
 exclude:
  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
