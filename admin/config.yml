@@ -347,6 +347,7 @@ collections:
             name: "button"
             widget: "object"
             fields:
+                # Read Now
               - label: "Read Now"
                 name: "read_now"
                 widget: "string"

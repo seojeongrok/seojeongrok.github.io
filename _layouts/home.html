@@ -34,7 +34,8 @@ layout: main
                 <div class="buttons">
                     <a href="{{ featured.url | prepend: site.baseurl }}" role="button" class="button">
                         <svg><use xlink:href="#icon-read"></use></svg>
-                        <span>{{ site.translations.button.read_now | default: "Read Now" }}</span>
+                        <!-- 기존에는 default : Read Now -->
+                        <span>{{ site.translations.button.read_now | default: "읽어 보기" }}</span>
                     </a>
                 </div>
             </div>
