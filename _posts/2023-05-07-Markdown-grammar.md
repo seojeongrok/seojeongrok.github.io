@@ -23,7 +23,13 @@ author: mranderson
 - `-` : 문자표 기호 동그라미
 - `>` : 인용구문
 - ``` : 기호 안에 있으면 해당 내용 강조
-- `**` : 해당 기호 안에 있는 내용 blod
+- `**` : 해당 기호 안에 있는 내용 **blod**
+- `<span style="color: red"> </span>` : <span style="color: red">빨간색 글씨</span>
+- `<span style="color: #2D3748; background-color:#fff5b1;"> </span>` : <span style="color: black; background-color:#fff5b1;">노랑색 형광펜 글씨</span>
+- `<span style="color: #2D3748; background-color:#ffdce0;"> </span>` : <span style="color: black; background-color:#ffdce0;">**빨간색 형광펜 글씨**</span>
+- `<span style="color: #2D3748; background-color:#dcffe4;"> </span>` : <span style="color: #2D3748; background-color:#dcffe4;">**초록색 형광펜 글씨**</span>
+
+
 > Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
 Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
