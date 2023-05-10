@@ -10,10 +10,14 @@ subtitle: Markdown 문법 정리.
 description: 블로그 작성을 위한 markdown 문법 정리.
 image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559825145/theme16_o0seet.jpg
 optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559825145/theme16_o0seet.jpg
-category: blog
+
+# 썸네일 상단 이름
+category: AWS
+
+# 썸네일 하단 해쉬태그
 tags:
   - blog
-  - tips
+  - AWS
 author: mranderson
 ---
 
