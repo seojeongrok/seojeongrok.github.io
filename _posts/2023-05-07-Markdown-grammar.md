@@ -8,8 +8,8 @@ title: Markdown 작성법
 subtitle: Markdown 문법 정리.
 
 description: 블로그 작성을 위한 markdown 문법 정리.
-image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559825145/theme16_o0seet.jpg
-optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559825145/theme16_o0seet.jpg
+image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
+optimized_image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 
 # 썸네일 상단 이름
 category: AWS
@@ -100,9 +100,9 @@ Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo r
 
 Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
 
-![placeholder](https://placehold.it/800x400 "Large example image")
-![placeholder](https://placehold.it/400x200 "Medium example image")
-![placeholder](https://placehold.it/200x200 "Small example image")
+![placeholder](https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png "Large example image"){: width="600" height="315"}
+![placeholder](https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png "Medium example image")
+![placeholder](https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png "Small example image")
 
 ## Tables
 

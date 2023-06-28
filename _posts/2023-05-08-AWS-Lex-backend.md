@@ -6,9 +6,9 @@ subtitle: 'AWS Lex backend'
 description: >-
   AWS Lex backend
 image: >-
-  https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821647/theme6_qeeojf.jpg
+  https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 optimized_image: >-
-  https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559821647/theme6_qeeojf.jpg
+  https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 category: AWS
 tags:
   - AWS
