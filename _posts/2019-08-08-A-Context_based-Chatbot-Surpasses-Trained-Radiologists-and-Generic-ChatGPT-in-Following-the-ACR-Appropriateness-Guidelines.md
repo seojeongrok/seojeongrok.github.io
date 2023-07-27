@@ -8,9 +8,6 @@ pin: true
 math: true
 ---
 
-# A Context-based Chatbot Surpasses Trained Radiologists and Generic ChatGPT in Following the ACR Appropriateness Guidelines
----
-
 
 ## Abstract
 ---
