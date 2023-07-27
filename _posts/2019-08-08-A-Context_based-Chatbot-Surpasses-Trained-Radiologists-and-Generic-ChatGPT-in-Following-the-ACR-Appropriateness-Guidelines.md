@@ -1,6 +1,6 @@
 ---
 title: A Context-based Chatbot Surpasses Trained Radiologists and Generic ChatGPT in Following the ACR Appropriateness Guidelines
-author: jeongork
+author: jeongrok
 date: 2023-07-27 11:33:00 +0800
 categories: [Paper, Review]
 tags: [Paper]
