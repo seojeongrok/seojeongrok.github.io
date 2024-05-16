@@ -85,3 +85,17 @@ $ gem install jekyll
 ```bash
 $ bundle exec jekyll serve
 ```
+
+## 7. 이런 경우도 있다!
+```bash
+$ bundle exec jekyll serve
+```
+* 당황하지말고 따라가자
+* 아래와 같은 에러가 뜰 것이다
+```bash
+Could not find html-proofer-3.19.4, jekyll-4.3.2, jekyll-paginate-1.1.0, jekyll-redirect-from-0.16.0, jekyll-seo-tag-2.8.0, jekyll-archives-2.2.1, jekyll-sitemap-1.4.0, jekyll-include-cache-0.2.1, addressable-2.8.4, nokogiri-1.15.3, parallel-1.23.0, rainbow-3.1.1, typhoeus-1.4.0, yell-2.2.2, i18n-1.14.1, rouge-4.1.2, public_suffix-5.0.3, mini_portile2-2.8.4, racc-1.7.1, ethon-0.16.0, concurrent-ruby-1.2.2, sass-embedded-1.64.1, listen-3.8.0, unicode-display_width-2.4.2, ffi-1.15.5, google-protobuf-3.23.4 in cached gems or installed locally
+Run `bundle install` to install missing gems.
+```
+```bash
+$ bundle install
+```
