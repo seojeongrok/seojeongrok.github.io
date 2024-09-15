@@ -1,18 +1,42 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        {% include head.html %}
-        <link rel="stylesheet" href="{{ '/assets/css/404.css' }}">
-    </head>
-    <body>
-        <div class="blank-page">
-        <a href="/" class="go-home">↩️ GO HOME</a>
-        <div class="not-found-msg">
-            <h1 class="sour-face">`Φ ⌒ `Φ ?</h1>
-            <p style="font-size:1.75rem; color:#fa4251;">404: Page not found</p>
-            <p style="font-size:1.25rem;">D-Data breach...? &nbsp&nbsp No such thing allowed!</p>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+{%- include head.html -%}
+<body>
+        {%- include header.html -%}
+        <div class="main-container">
+            {{ content }}
         </div>
-        </div>
-    </body>
-    <script src="{{ '/assets/js/404.js' }}"></script>
+         <div class="col-lg-12" id="newsletter_footer">
+               {%- include blog_newsletter.html -%}
+         </div>
+        {%- include footer.html -%}
+     <script>
+            var options = {
+                classname: 'progressline',
+                id: 'my-id'
+            };
+            var nanobar = new Nanobar( options );
+            nanobar.go( 30 );
+            nanobar.go( 76 );
+            nanobar.go(100);
+        </script>
+
+   <div hidden id="snipcart" data-api-key="Y2I1NTAyNWYtMTNkMy00ODg0LWE4NDItNTZhYzUxNzJkZTI5NjM3MDI4NTUzNzYyMjQ4NzU0"></div>
+   <script src="https://cdn.snipcart.com/themes/v3.0.0-beta.3/default/snipcart.js" defer></script>
+   <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+  </body>
 </html>

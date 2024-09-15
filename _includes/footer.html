@@ -1,9 +1,5 @@
-<script defer src="{{ '/assets/js/background.js' }}"></script>
-<script defer src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
-
-    gtag('js', new Date());
-    gtag('config', '{{ site.google_analytics }}');
-</script>
+<footer>
+    <p> Powered by<a href="https://github.com/seojeongrok"> devlopr jekyll</a>. Hosted with <a href="https://pages.github.com">Github Pages</a>. Subscribe via
+        <a href="{{ " /feed.xml " | prepend: site.baseurl }}">RSS</a>
+    </p>
+</footer>
